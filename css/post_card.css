@@ -1,0 +1,26 @@
+#content {
+    margin-top: 46px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+}
+
+#content .post-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-card .create-date,
+.post-card .abstract p {
+    margin: 8px 0;
+}
+
+.post-card .image img {
+    width: 100%;
+    height: auto;
+}
+
+.abstract h2 {
+    font-size: 1.5em;
+    font-style: italic;
+}

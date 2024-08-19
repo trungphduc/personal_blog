@@ -1,0 +1,59 @@
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#post {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 46px;
+}
+
+.post-content {
+    flex: 2;
+    margin-right: 40px;
+}
+
+.post-content .post-create-date {
+    color: #888;
+    font-size: 0.9em;
+    margin: 24px 0;
+}
+
+.post-content .post-title {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.post-content .post-title h1 {
+    line-height: 1em;
+    font-size: 2em;
+}
+
+.post-content .post-image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.post-content .sub-title {
+    margin: 16px 0 8px;
+}
+
+.post-content .post-image figcaption {
+    font-style: italic;
+    align-self: center;
+    text-align: center;
+}
+
+.post-content .post-image img {
+    width: 50%;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 20px 0;
+    padding-left: 20px;
+    border-left: 4px solid #ddd;
+}
